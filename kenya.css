@@ -36,9 +36,7 @@ nav a:hover {
 nav a:active {
     color:#6a1624;
 }
-nav a:visited {
-    color:#b68d94;
-}
+
 #center {display:flex;
 flex-direction:row;}
 
@@ -88,12 +86,14 @@ footer {
         display:block;
         text-align:center;
         background-color:#b68d94;
-        margin:0 auto;}
-nav a:hover {
+        margin:0 auto;
+    }
+    nav a:hover {
     border-bottom:none;
-}
+    }
    #center{
        display:flex;
        flex-direction:column-reverse;
    }
+   .pictures {display:none;}
 }
