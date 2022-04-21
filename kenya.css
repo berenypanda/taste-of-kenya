@@ -30,8 +30,14 @@ nav a {
 
 nav a:hover {
     border-bottom: 2px solid #000;
+    font-size:160%;
 }
-
+nav a:active {
+    color:#6a1624;
+}
+nav a:visited {
+    color:#b68d94;
+}
 #center {display:flex;
 flex-direction:row;}
 
@@ -53,6 +59,7 @@ main h3 {
     text-align:center;
     border-bottom: solid 2px #000;
 }
+main p {text-align:center;}
 dt, dd {font-size:120%;
 }
 dd {
@@ -62,6 +69,9 @@ dd {
 footer {
     text-align:center;
     padding: 2% 2%;
+}
+.pictures {
+    text-align:center;
 }
 
 @media only screen and (max-width:768px) {
