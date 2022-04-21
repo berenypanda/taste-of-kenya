@@ -32,10 +32,56 @@ nav a:hover {
     border-bottom: 2px solid #000;
 }
 
+#center {display:flex;
+flex direction:row;}
+
+aside {flex:1;
+padding: 2%;
+height:20%;
+}
+
 main {
+    flex:9;
     margin:0 auto;
     width:80%;
+    padding: 2% 6%;
 }
 h2 {
     text-align:center;
+}
+main h3 {
+    text-align:center;
+    border-bottom: solid 2px #000;
+}
+dt, dd {font-size:120%;
+}
+dd {
+    font-style:italic;
+    color:#6a1624;
+}
+footer {
+    text-align:center;
+    padding: 2% 2%;
+}
+
+@media only screen and (max-width:768px) {
+    #wrapper {
+        text-align:center;
+        margin:0 auto;
+        width:90%;
+}
+    nav, nav ul, nav li {padding:0 0;}
+    nav li {border-bottom: solid 2px #6a1624;}
+    nav ul {
+        display:block;
+        text-align:center;
+        background-color:#b68d94;
+        margin:0 auto;}
+nav a:hover {
+    border-bottom:none;
+}
+   #center{
+       display:flex;
+       flex-direction:column-reverse;
+   }
 }
