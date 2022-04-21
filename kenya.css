@@ -4,8 +4,8 @@ body {background-color:#6a1624;}
     margin: 0 auto;
     width:80%;
     background-color:#fbefd8;
+    font-family:Arial, Helvetica, sans-serif;
 }
-
 header {
     display:flex;
     justify-content:center;
@@ -33,4 +33,9 @@ nav a:hover {
 }
 
 main {
+    margin:0 auto;
+    width:80%;
+}
+h2 {
+    text-align:center;
 }
